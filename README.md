@@ -1,0 +1,2 @@
+# rust
+something about rust
