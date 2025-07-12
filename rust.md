@@ -369,7 +369,7 @@ impl<'a> EnhancedQueryParser<'a> {
 > + 并发：宽泛概念，单纯代表计算机能够同时执行多项任务
 >
 > + 并行：针对与多核处理器，实现多个任务真正意义上的同时运行
->   ![image1](.\images\image1.png)
+>   ![image1](./images/image1.png)
 >
 > + 同步和异步：是指两种不同的编程模型
 >
@@ -388,9 +388,9 @@ impl<'a> EnhancedQueryParser<'a> {
 > 针对与I/O密集型操作
 >
 > + 采用单线程异步操作
->   ![image2](.\images\image2.png)
+>   ![image2](./images/image2.png)
 > + 采用多线程编程
->   ![image3](.\images\image3.png)
+>   ![image3](./images/image3.png)
 >   缺陷：线程本身会占有更多的额外内存开销，并带来线程切换开销
 >
 > 针对计算密集型操作
@@ -414,7 +414,7 @@ impl<'a> EnhancedQueryParser<'a> {
 
 ### 6. 异步编程
 
-![image4](.\images\image4.png)
+![image4](./images/image4.png)
 
 + `async` / `await`：异步函数和等待点
 + `Future` 特征：表示异步计算
